@@ -1,12 +1,11 @@
 .perfil-page {
     width: 80%;
     border-color: #e9e9e9;
-    border-radius: 0.4rem;
+    border-radius: 0.25rem;;
     border-width: 1px;
     border-style: solid;
-    padding: 2rem;
     max-width: 900px;
-    margin-left: 20rem;
+    margin: 3rem;
 }
 
 .perfil-container {
@@ -14,13 +13,17 @@
     justify-content: space-evenly;
     align-items: center;
     border-bottom: 1px solid #e9e9e9;
-    padding: 0rem 0rem 2rem 0rem;
+    padding: 1rem 0rem 2rem 0rem;
 }
 
 .avatar {
-    width: 10rem;
-    height: 10rem;
+    width: 7.5rem;
+    height: 7.5rem;
     border-radius: 50%;
+}
+
+.perfil-info {
+    width: 60%;
 }
 
 .perfil-info strong {
@@ -38,14 +41,14 @@
 }
 
 .perfil-info p {
-    text-align: left;
+    text-align: justify;
 }
 
 .circle {
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
-    background-color: grey;
+    background-color: rgb(216, 216, 216);
 }
 
 .edit-perfil {
@@ -56,21 +59,28 @@
 
 .edit-perfil .circulos {
     display: flex;
-    justify-content: space-evenly;
-    width: 8rem;
+    justify-content: space-between;
+    width: 7rem;
 }
 
 .edit-perfil button {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    border-radius: 0.4rem;
-    background-color: #0082c1;
+    border-radius: 0.25rem;
+    background-color: rgb(77, 146, 237);
     height: 2rem;
     width: 8rem;
+    font-size: 13px;
+    font-weight: 600;
     color: #fff;
     outline: none;
     border: none;
+    cursor: pointer;
+}
+
+.edit-perfil button:hover {
+    background-color: rgb(77, 146, 170);
 }
 
 .pencil {
@@ -80,14 +90,120 @@
 
 footer {
     display: flex;
-    align-items: center;
     justify-content: flex-start;
 }
 
-footer a {
-    margin-right: 4rem;
+footer ul {
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+    align-items: flex-end;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.35);
+    margin: 0;
 }
 
-footer a + a {
-    margin-right: 4rem;
+footer ul li {
+    margin-right: 3rem; 
+    padding: 1rem 0;
+}
+
+footer ul li + li {
+    margin-right: 3rem;
+}
+
+footer ul li#li-perfil {
+    color: rgba(0, 0, 0, 0.75);
+    border-bottom: 2px solid #4d92ed;
+}
+
+.info-perfil {
+    display: flex;
+    border-bottom: 1px solid #e9e9e9;
+    justify-content: space-between;
+    width: 121%;
+    margin: 3rem;
+}
+
+.name-perfil {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.kderno {
+    padding: 0 1rem 2rem;
+}
+
+.kderno h4 {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.kderno span {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.kderno h4 {
+    margin: 0;
+    text-align: start;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 2rem;
+}
+
+.number {
+    border: 1px solid #e9e9e9;
+    border-radius: 0.25rem;
+    color: rgba(0, 0, 0, 0.5);
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.4rem 0;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.shared {
+    border: 1px solid #e9e9e9;
+    border-radius: 0.25rem;
+    color: rgba(0, 0, 0, 0.5);
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.4rem 0;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.edit {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 0.25rem;
+    background-color: rgb(77, 146, 237);
+    height: 2rem;
+    width: 5rem;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.edit:hover {
+    background-color: rgb(77, 146, 170);
+}
+
+.info-perfil img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
 }

@@ -1,0 +1,62 @@
+.main-container {
+    display: flex;
+
+}
+
+.thesaurus {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;   
+    margin-left: 23rem;
+}
+
+.nav-bar-thesaurus {
+    border-left: 1.5px solid rgb(25, 115, 232);
+    padding: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    font-weight: normal;
+    list-style: none;
+    margin-left: 5rem;
+    width: 54%;
+    height: 9%;
+}
+
+.nav-bar-thesaurus li {
+    margin-bottom: 1rem;
+}
+
+.nav-bar-thesaurus li#li-intro {
+    color: rgb(25, 115, 232);
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.nav-bar-thesaurus li + li {
+    margin-bottom: 1rem;
+}
+
+.sumario strong {
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sumario ul {
+    font-size: 17px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.introducao strong {
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.introducao p {
+    text-align: justify;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.75);
+    font-weight: normal;
+}
